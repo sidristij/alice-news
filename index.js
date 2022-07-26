@@ -7,7 +7,7 @@ const port = 5000;
 app.use(express.urlencoded({ extended: false }));
 
 // Home route
-app.get("/", (req, res) => {
+app.post("/", (req, res) => {
   res.send("Привет поросёна");
 });
 
