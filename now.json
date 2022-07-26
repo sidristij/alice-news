@@ -5,7 +5,7 @@
     {
       "src": "/users",
       "dest": "/index.js",
-      "methods": ["GET"]
+      "methods": ["GET", "POST"]
     },
     {
       "src": "/user",
