@@ -8,7 +8,7 @@ app.use(express.urlencoded({ extended: false }));
 
 // Home route
 app.post("/", (req, res) => {
-  res.send('{"response": {"text": "Маамаа! Шикард+ос ам+игос!","tts": "Маамаа! Шикард+ос ам+игос!","end_session": false},  "application_state": { "value": 37 }, "version": "1.0"}');
+  res.send('{"response": {"text": "Привет мамуля красотуля! мммммм классно выглядишь!","tts": "Привет мамуля красотуля! мммммм классно выглядишь!","end_session": false},  "application_state": { "value": 37 }, "version": "1.0"}');
 });
 
 // Mock API
