@@ -8,7 +8,7 @@ app.use(express.urlencoded({ extended: false }));
 
 // Home route
 app.post("/", (req, res) => {
-  res.send("{ text: 'Как дела?',  tts: 'Как дел+а?',  buttons: [    {title: 'Отлично', hide: true},    {title: 'Супер', hide: true},  ],  end_session: false}");
+  res.send("{ response: { text: 'Как дела?',  tts: 'Как дел+а?',  buttons: [    {title: 'Отлично', hide: true},    {title: 'Супер', hide: true},  ],  end_session: false} }");
 });
 
 // Mock API
